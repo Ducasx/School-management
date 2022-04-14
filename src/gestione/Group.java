@@ -8,7 +8,6 @@ public class Group {
 	protected Tree persons;
 	
 	public Group(String name, double maxImport, Tree persons) {
-		super();
 		this.name = name;
 		this.maxImport = maxImport;
 		this.persons = persons;
