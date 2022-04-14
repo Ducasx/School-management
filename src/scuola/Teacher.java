@@ -2,8 +2,7 @@ package scuola;
 
 import gestione.Person;
 
-@SuppressWarnings("rawtypes")
-public class Teacher extends Person implements Comparable{
+public class Teacher extends Person implements albero.Comparable{
 	private String degree;
 	private double baseWage;
 	private double coursesMoney;
@@ -24,8 +23,4 @@ public class Teacher extends Person implements Comparable{
 	
 	public double calcWage() {return baseWage + coursesMoney;}
 
-	@Override
-	public int compareTo(Object o) {
-		return 0;
-	}
 }
